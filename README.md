@@ -280,7 +280,7 @@ Automated-Resume-Screening-Tool/
 
 \---
 
-\## Workflow
+\ Workflow
 
 
 
