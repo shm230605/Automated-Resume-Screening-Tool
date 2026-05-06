@@ -9,7 +9,6 @@ An industry-oriented **AI/NLP-powered Resume Screening Dashboard**that automates
 \---
 
 
-
 **Project Overview**
 
 
