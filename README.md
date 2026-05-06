@@ -1,4 +1,4 @@
-&#x20;**Automated Resume Screening Tool**
+**Automated Resume Screening Tool**
 
 
 
@@ -10,7 +10,7 @@ An industry-oriented **AI/NLP-powered Resume Screening Dashboard**that automates
 
 
 
-&#x20;**Project Overview**
+**Project Overview**
 
 
 
@@ -32,7 +32,7 @@ This project solves that problem by building an \*\*Automated Resume Screening S
 
 
 
-&#x20;**💡 Key Features**
+**💡 Key Features**
 
 
 
@@ -58,7 +58,7 @@ This project solves that problem by building an \*\*Automated Resume Screening S
 
 
 
-&#x20;**Industry Relevance**
+**Industry Relevance**
 
 
 
@@ -120,7 +120,7 @@ This project simulates the core functionality used by:
 
 
 
-&#x20;**NLP-Based Matching**
+**NLP-Based Matching**
 
 
 
@@ -198,17 +198,16 @@ Interactive Streamlit dashboard with:
 
 
 
-&#x20;**Tech Stack**
+**Tech Stack**
 
 
-
-&#x20;**Programming Language**
+**Programming Language**
 
 \- Python 3.x
 
 
 
-&#x20;**Libraries**
+**Libraries**
 
 \- Pandas
 
@@ -224,7 +223,7 @@ Interactive Streamlit dashboard with:
 
 
 
-&#x20;**NLP / ML Techniques**
+**NLP / ML Techniques**
 
 \- TF-IDF
 
@@ -238,87 +237,49 @@ Interactive Streamlit dashboard with:
 
 
 
-&#x20;**Project Structure**
+**Project Structure**
 
 
 
 ```
 
 Automated-Resume-Screening-Tool/
-
 │
-
 ├── config/
-
 │   └── config.py
-
 │
-
 ├── data/
-
 │   └── job\_description.txt
-
 │
-
 ├── resumes/
-
 │   ├── resume1.txt
-
 │   ├── resume2.txt
-
 │   └── resume3.pdf
-
 │
-
 ├── src/
-
 │   ├── \_\_init\_\_.py
-
 │   ├── ingestion.py
-
 │   ├── preprocessing.py
-
 │   ├── feature\_engineering.py
-
 │   ├── scoring.py
-
 │   └── utils.py
-
 │
-
 ├── outputs/
-
 │   ├── results.csv
-
 │   └── results.json
-
 │
-
 ├── logs/
-
 │   └── app.log
-
 │
-
 ├── app.py
-
 ├── main.py
-
 ├── requirements.txt
-
 ├── .gitignore
-
 └── README.md
 
 ```
 
-
-
 \---
-
-
-
-
 
 \## Workflow
 
@@ -327,38 +288,23 @@ Automated-Resume-Screening-Tool/
 ```
 
 Resume Upload
-
-&#x20;  ↓
-
+   ↓
 Text Extraction
-
-&#x20;  ↓
-
+   ↓
 Cleaning
-
-&#x20;  ↓
-
+   ↓
 Skill Extraction
-
-&#x20;  ↓
-
+   ↓
 TF-IDF Vectorization
-
-&#x20;  ↓
-
+   ↓
 Cosine Similarity
-
-&#x20;  ↓
-
+   ↓
 Resume Ranking
-
-&#x20;  ↓
-
+   ↓
 Shortlisting
-
-&#x20;  ↓
-
+   ↓
 CSV Report Generation
+
 
 ```
 
@@ -404,7 +350,7 @@ CSV Report Generation
 
 
 
-&#x20;**NLP**
+**NLP**
 
 \- Text preprocessing
 
@@ -431,8 +377,7 @@ CSV Report Generation
 \---
 
 
-
-&#x20;**Dashboard Development**
+**Dashboard Development**
 
 \- Streamlit UI
 
@@ -444,7 +389,7 @@ CSV Report Generation
 
 
 
-&#x20;**Future Enhancements**
+**Future Enhancements**
 
 
 
@@ -469,8 +414,7 @@ Planned upgrades:
 \---
 
 
-
-&#x20;**Author**
+**Author**
 
 
 
