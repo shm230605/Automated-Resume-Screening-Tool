@@ -1,8 +1,8 @@
-\# Automated Resume Screening Tool
+&#x20;**Automated Resume Screening Tool**
 
 
 
-An industry-oriented \*\*AI/NLP-powered Resume Screening Dashboard\*\* that automates candidate shortlisting by extracting resume text, matching it against job descriptions, calculating relevance scores, and generating ranked candidate reports.
+An industry-oriented **AI/NLP-powered Resume Screening Dashboard**that automates candidate shortlisting by extracting resume text, matching it against job descriptions, calculating relevance scores, and generating ranked candidate reports.
 
 
 
@@ -10,7 +10,7 @@ An industry-oriented \*\*AI/NLP-powered Resume Screening Dashboard\*\* that auto
 
 
 
-\## Project Overview
+&#x20;**Project Overview**
 
 
 
@@ -20,11 +20,11 @@ Recruiters often receive hundreds of resumes for a single role.
 
 Manual screening is:
 
-\- ⏳ Time-consuming  
+⏳ Time-consuming  
 
-\- ❌ Inconsistent  
+❌ Inconsistent  
 
-\- ⚠️ Error-prone  
+⚠️ Error-prone  
 
 
 
@@ -32,7 +32,7 @@ This project solves that problem by building an \*\*Automated Resume Screening S
 
 
 
-\## 💡 Key Features
+&#x20;**💡 Key Features**
 
 
 
@@ -58,7 +58,7 @@ This project solves that problem by building an \*\*Automated Resume Screening S
 
 
 
-\## Industry Relevance
+&#x20;**Industry Relevance**
 
 
 
@@ -76,7 +76,7 @@ This project simulates the core functionality used by:
 
 
 
-Relevant roles:
+**Relevant roles:**
 
 
 
@@ -98,13 +98,13 @@ Relevant roles:
 
 
 
-\## Features
+**Features**
 
 
 
-\### Resume Parsing
+**Resume Parsing**
 
-Supports:
+**Supports:**
 
 
 
@@ -120,7 +120,7 @@ Supports:
 
 
 
-\### NLP-Based Matching
+&#x20;**NLP-Based Matching**
 
 
 
@@ -142,7 +142,7 @@ Uses:
 
 
 
-\### Candidate Ranking
+**Candidate Ranking**
 
 
 
@@ -154,7 +154,7 @@ Automatically ranks resumes by relevance.
 
 
 
-\### Shortlisting Engine
+**Shortlisting Engine**
 
 
 
@@ -174,9 +174,7 @@ based on configurable thresholds.
 
 \---
 
-
-
-\### Dashboard Interface
+**Dashboard Interface**
 
 
 
@@ -200,17 +198,17 @@ Interactive Streamlit dashboard with:
 
 
 
-\## Tech Stack
+&#x20;**Tech Stack**
 
 
 
-\### Programming Language
+&#x20;**Programming Language**
 
 \- Python 3.x
 
 
 
-\### Libraries
+&#x20;**Libraries**
 
 \- Pandas
 
@@ -226,7 +224,7 @@ Interactive Streamlit dashboard with:
 
 
 
-\### NLP / ML Techniques
+&#x20;**NLP / ML Techniques**
 
 \- TF-IDF
 
@@ -240,7 +238,7 @@ Interactive Streamlit dashboard with:
 
 
 
-\# Project Structure
+&#x20;**Project Structure**
 
 
 
@@ -368,11 +366,11 @@ CSV Report Generation
 
 
 
-\# Sample Output
+&#x20;**Sample Output**
 
 ```
 
-|   Resume    |Score |   Status    |
+|   **Resume    |Score |   Status**    |
 
 |-------------|------|-------------|
 
@@ -388,11 +386,11 @@ CSV Report Generation
 
 
 
-This project demonstrates:
+**This project demonstrates:**
 
 
 
-\## Python Development
+&#x20;**Python Development**
 
 \- Modular architecture
 
@@ -406,7 +404,7 @@ This project demonstrates:
 
 
 
-\## NLP
+&#x20;**NLP**
 
 \- Text preprocessing
 
@@ -420,7 +418,7 @@ This project demonstrates:
 
 
 
-\## Machine Learning
+&#x20;**Machine Learning**
 
 \- TF-IDF
 
@@ -434,7 +432,7 @@ This project demonstrates:
 
 
 
-\## Dashboard Development
+&#x20;**Dashboard Development**
 
 \- Streamlit UI
 
@@ -446,7 +444,7 @@ This project demonstrates:
 
 
 
-\# Future Enhancements
+&#x20;**Future Enhancements**
 
 
 
@@ -472,7 +470,7 @@ Planned upgrades:
 
 
 
-\# Author
+&#x20;**Author**
 
 
 
