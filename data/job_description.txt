@@ -1,0 +1,5 @@
+We are hiring a Python Developer with experience in:
+- Python
+- SQL
+- Machine Learning
+- Pandas
