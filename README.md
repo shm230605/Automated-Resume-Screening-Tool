@@ -1,254 +1,142 @@
-**Automated Resume Screening Tool**
 
+# 📄 **Automated Resume Screening Tool**
 
+An industry-oriented **AI / NLP-powered Resume Screening Dashboard** that automates candidate shortlisting by extracting resume text, matching it against job descriptions, calculating relevance scores, and generating ranked candidate reports.
 
-An industry-oriented **AI/NLP-powered Resume Screening Dashboard**that automates candidate shortlisting by extracting resume text, matching it against job descriptions, calculating relevance scores, and generating ranked candidate reports.
+---
 
-
-
-\---
-
-
-**Project Overview**
-
-
+## 📌 **Project Overview**
 
 Recruiters often receive hundreds of resumes for a single role.
 
-
-
 Manual screening is:
 
-⏳ Time-consuming  
+⏳ Time-consuming
+❌ Inconsistent
+⚠️ Error-prone
 
-❌ Inconsistent  
+This project solves that problem by building an **Automated Resume Screening System** using Python and NLP techniques.
 
-⚠️ Error-prone  
+---
 
+## 💡 **Key Features**
 
+* 📂 Resume Parsing (PDF / DOCX / TXT)
+* 🧹 Text Cleaning & Preprocessing
+* 🧠 NLP-based Skill Matching
+* 📊 TF-IDF + Cosine Similarity Scoring
+* 📈 Candidate Ranking System
+* ✅ Automatic Shortlisting (Threshold-based)
+* 📋 CSV Report Generation
+* 🎨 Interactive Streamlit Dashboard
 
-This project solves that problem by building an \*\*Automated Resume Screening System\*\* using Python and NLP techniques.
+---
 
-
-
-**💡 Key Features**
-
-
-
-\- 📂 Resume Parsing (PDF / DOCX / TXT)
-
-\- 🧹 Text Cleaning \& Preprocessing
-
-\- 🧠 NLP-based Skill Matching
-
-\- 📊 TF-IDF + Cosine Similarity Scoring
-
-\- 📈 Candidate Ranking System
-
-\- ✅ Automatic Shortlisting (Threshold-based)
-
-\- 📋 CSV Report Generation
-
-\- 🎨 Interactive Streamlit Dashboard
-
-
-
-\---
-
-
-
-**Industry Relevance**
-
-
+## 🏢 **Industry Relevance**
 
 This project simulates the core functionality used by:
 
+* 🧾 Applicant Tracking Systems (ATS)
+* 🏢 HR Tech Platforms
+* 🤖 Recruitment Automation Tools
+* 📊 Talent Intelligence Systems
 
+### 🎯 Relevant Roles
 
-\- Applicant Tracking Systems (ATS)
+* Python Developer
+* NLP Engineer
+* Data Analyst
+* Automation Engineer
+* HR Tech Developer
+* Machine Learning Engineer
 
-\- HR Tech Platforms
+---
 
-\- Recruitment Automation Tools
+## ⚙️ **Features Breakdown**
 
-\- Talent Intelligence Systems
+### 📂 Resume Parsing
 
+Supports:
 
+* PDF
+* DOCX
+* TXT
 
-**Relevant roles:**
+---
 
-
-
-\- Python Developer
-
-\- NLP Engineer
-
-\- Data Analyst
-
-\- Automation Engineer
-
-\- HR Tech Developer
-
-\- Machine Learning Engineer
-
-
-
-\---
-
-
-
-**Features**
-
-
-
-**Resume Parsing**
-
-**Supports:**
-
-
-
-\- PDF
-
-\- DOCX
-
-\- TXT
-
-
-
-\---
-
-
-
-**NLP-Based Matching**
-
-
+### 🧠 NLP-Based Matching
 
 Uses:
 
+* Text preprocessing
+* Skill extraction
+* TF-IDF vectorization
+* Cosine similarity scoring
 
+---
 
-\- Text preprocessing
+### 📊 Candidate Ranking
 
-\- Skill extraction
+Automatically ranks resumes by relevance score.
 
-\- TF-IDF vectorization
+---
 
-\- Cosine similarity scoring
-
-
-
-\---
-
-
-
-**Candidate Ranking**
-
-
-
-Automatically ranks resumes by relevance.
-
-
-
-\---
-
-
-
-**Shortlisting Engine**
-
-
+### ✅ Shortlisting Engine
 
 Candidates are classified as:
 
-
-
-\- Shortlisted
-
-\- Rejected
-
-
+* 🟢 Shortlisted
+* 🔴 Rejected
 
 based on configurable thresholds.
 
+---
 
-
-\---
-
-**Dashboard Interface**
-
-
+### 🎨 Dashboard Interface
 
 Interactive Streamlit dashboard with:
 
+* 📤 Resume upload
+* 📝 Job description input
+* 📊 Candidate analysis
+* 📈 Ranking table
+* 📥 CSV export
 
+---
 
-\- Resume upload
+## 🛠️ **Tech Stack**
 
-\- Job description input
+### 🐍 Programming Language
 
-\- Candidate analysis
+* Python 3.x
 
-\- Ranking table
+### 📚 Libraries
 
-\- CSV export
+* Pandas
+* NumPy
+* Scikit-learn
+* pdfplumber
+* python-docx
+* Streamlit
 
+### 🧠 NLP / ML Techniques
 
+* TF-IDF
+* Cosine Similarity
+* Keyword Matching
 
-\---
+---
 
-
-
-**Tech Stack**
-
-
-**Programming Language**
-
-\- Python 3.x
-
-
-
-**Libraries**
-
-\- Pandas
-
-\- NumPy
-
-\- Scikit-learn
-
-\- pdfplumber
-
-\- python-docx
-
-\- Streamlit
-
-
-
-**NLP / ML Techniques**
-
-\- TF-IDF
-
-\- Cosine Similarity
-
-\- Keyword Matching
-
-
-
-\---
-
-
-
-**Project Structure**
-
-
+## 📁 **Project Structure**
 
 ```
-
 Automated-Resume-Screening-Tool/
 │
 ├── config/
 │   └── config.py
 │
 ├── data/
-│   └── job\_description.txt
+│   └── job_description.txt
 │
 ├── resumes/
 │   ├── resume1.txt
@@ -256,10 +144,10 @@ Automated-Resume-Screening-Tool/
 │   └── resume3.pdf
 │
 ├── src/
-│   ├── \_\_init\_\_.py
+│   ├── __init__.py
 │   ├── ingestion.py
 │   ├── preprocessing.py
-│   ├── feature\_engineering.py
+│   ├── feature_engineering.py
 │   ├── scoring.py
 │   └── utils.py
 │
@@ -275,149 +163,88 @@ Automated-Resume-Screening-Tool/
 ├── requirements.txt
 ├── .gitignore
 └── README.md
-
 ```
 
-\---
+---
 
-\ Workflow
-
-
+## 🔄 **Workflow**
 
 ```
-
-Resume Upload
-   ↓
-Text Extraction
-   ↓
-Cleaning
-   ↓
-Skill Extraction
-   ↓
-TF-IDF Vectorization
-   ↓
-Cosine Similarity
-   ↓
-Resume Ranking
-   ↓
-Shortlisting
-   ↓
-CSV Report Generation
-
-
+📄 Resume Upload
+      ↓
+🧾 Text Extraction
+      ↓
+🧹 Cleaning
+      ↓
+🧠 Skill Extraction
+      ↓
+📊 TF-IDF Vectorization
+      ↓
+📈 Cosine Similarity
+      ↓
+🏆 Resume Ranking
+      ↓
+✅ Shortlisting
+      ↓
+📋 CSV Report Generation
 ```
 
+---
 
+## 📊 **Sample Output**
 
+| 📄 Resume   | 📊 Score | ✅ Status       |
+| ----------- | -------- | -------------- |
+| resume1.txt | 60%      | 🟢 Shortlisted |
+| resume2.txt | 25%      | 🔴 Rejected    |
 
+---
 
-&#x20;**Sample Output**
+## 🚀 **This Project Demonstrates**
 
-```
+### 🐍 Python Development
 
-|   **Resume    |Score |   Status**    |
+* Modular architecture
+* File handling
+* Error handling
 
-|-------------|------|-------------|
+---
 
-| resume1.txt | 60%  | Shortlisted |
+### 🧠 NLP
 
-| resume2.txt | 25%  |  Rejected   |
+* Text preprocessing
+* Feature extraction
+* Similarity scoring
 
-```
+---
 
-\---
+### 🤖 Machine Learning
 
+* TF-IDF
+* Vectorization
+* Ranking systems
 
+---
 
+### 🎨 Dashboard Development
 
+* Streamlit UI
+* Interactive reporting
 
-**This project demonstrates:**
+---
 
+## 🔮 **Future Enhancements**
 
+* ⚡ FastAPI backend
+* 🗄️ PostgreSQL integration
+* 🧠 BERT embeddings
+* 📊 Candidate analytics dashboard
+* 🔐 Authentication system
+* 🔄 Multi-job comparison
 
-&#x20;**Python Development**
+---
 
-\- Modular architecture
+## 👤 **Author**
 
-\- File handling
-
-\- Error handling
-
-
-
-\---
-
-
-
-**NLP**
-
-\- Text preprocessing
-
-\- Feature extraction
-
-\- Similarity scoring
-
-
-
-\---
-
-
-
-&#x20;**Machine Learning**
-
-\- TF-IDF
-
-\- Vectorization
-
-\- Ranking systems
-
-
-
-\---
-
-
-**Dashboard Development**
-
-\- Streamlit UI
-
-\- Interactive reporting
-
-
-
-\---
-
-
-
-**Future Enhancements**
-
-
-
-Planned upgrades:
-
-
-
-\- FastAPI backend
-
-\- PostgreSQL integration
-
-\- BERT embeddings
-
-\- Candidate analytics dashboard
-
-\- Authentication system
-
-\- Multi-job comparison
-
-
-
-\---
-
-
-**Author**
-
-
-
-Shresthaa Maiti
-
-
+**Shresthaa Maiti**
 
